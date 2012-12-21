@@ -1,5 +1,5 @@
 {
-  "name": "My First Extension",
+  "name": "View titles from the frontpage of tvblog.ro",
   "version": "1.0",
   "manifest_version": 2,
   "description": "The first extension that I made.",
@@ -8,6 +8,6 @@
     "default_popup" : "popup.html"
   },
   "permissions": [
-    "http://api.flickr.com/"
+    "http://www.tvblog.ro/"
     ]
 }
