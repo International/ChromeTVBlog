@@ -2,8 +2,6 @@
 (function() {
   var $jq;
 
-  alert("Coffee");
-
   $jq = $.get("http://www.tvblog.ro", function(response) {
     var $headlines, $value, value, _i, _len, _results;
     $headlines = $("#content h2 a", response);

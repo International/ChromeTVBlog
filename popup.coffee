@@ -1,4 +1,3 @@
-alert "Coffee"
 $jq = $.get "http://www.tvblog.ro",(response) ->
   $headlines = $("#content h2 a",response)
   for value in $headlines
